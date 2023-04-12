@@ -13,7 +13,7 @@ fun offerPointerEvent(event: PointerEvent, pass: PointerEventPass) {
             }
         }
 ```
-Stacktrace:
+## Stacktrace
 ```
 FATAL EXCEPTION: main
 Process: com.ivanebernal.composelongclickappdemo, PID: 29880
@@ -78,3 +78,5 @@ java.lang.IllegalStateException: Already resumed, but proposed with update andro
 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
  	Suppressed: kotlinx.coroutines.DiagnosticCoroutineContextException: [androidx.compose.ui.platform.MotionDurationScaleImpl@cd47bed, androidx.compose.runtime.BroadcastFrameClock@a892a22, StandaloneCoroutine{Cancelling}@f897cb3, AndroidUiDispatcher@6fad270]
 ```
+## Demo
+[long-press-crash-demo.webm](https://user-images.githubusercontent.com/16783519/231334579-f688d3ee-7831-4c42-9a9a-1735581e4111.webm)
