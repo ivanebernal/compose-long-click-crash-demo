@@ -1,0 +1,52 @@
+# Maven
+target
+pom.xml.*
+release.properties
+gen-external-apklibs
+
+# Gradle
+.gradle
+build/
+!/scripts/**/build
+local.properties
+gradlew.bat
+manifest/gradle-build.manifest.yml
+settings_modules_override.gradle
+/reports/
+
+# Other IDEs
+.classpath
+.project
+.settings
+.vscode/
+eclipsebin
+.fleet
+
+# IntelliJ IDEA
+.idea/
+!.idea/vcs.xml
+!.idea/runConfigurations/
+!.idea/scopes/
+*.iml
+*.ipl
+*.ipr
+*.iws
+captures/
+classes/
+idea-classes/
+coverage-error.log
+.shelf/
+thread-dump.zip
+
+# Android
+gen
+bin
+!/scripts/**/bin
+!/tools/**/bin
+project.properties
+out
+.cxx
+
+# Steve Jobs
+.DS_Store
+
