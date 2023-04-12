@@ -13,6 +13,8 @@ fun offerPointerEvent(event: PointerEvent, pass: PointerEventPass) {
             }
         }
 ```
+The culprit code is isolated in [MainActivity](https://github.com/ivanebernal/compose-long-click-crash-demo/blob/main/app/src/main/java/com/ivanebernal/composelongclickappdemo/MainActivity.kt).
+
 ## Stacktrace
 ```
 FATAL EXCEPTION: main
