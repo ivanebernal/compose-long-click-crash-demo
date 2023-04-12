@@ -28,11 +28,11 @@ import kotlinx.coroutines.launch
 class MainActivity : AppCompatActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    val activity2Intent = Intent(this, Activity2::class.java)
+    // val activity2Intent = Intent(this, Activity2::class.java)
     setContent {
       CrashButton {
         dropLateEvents()
-        startActivity(activity2Intent)
+        // startActivity(activity2Intent)
       }
     }
   }
