@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
     val startActivityWithDelay = {
       allowEvents = false
       runBlocking {
+        // Simulate bad performance
         delay(200)
         startActivity(activity2Intent)
       }
